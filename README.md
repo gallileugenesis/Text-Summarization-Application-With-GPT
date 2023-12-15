@@ -10,7 +10,7 @@ O projeto consiste em dois arquivos principais:
 
 ## Funcionalidades
 
-![png]("https://github.com/gallileugenesis/text-summarization-application-with-gpt/blob/main/images/interface.jpeg?raw=true")
+![jpeg]("https://raw.githubusercontent.com/gallileugenesis/text-summarization-application-with-gpt/main/images/interface.jpeg")
 
 ![png]("https://github.com/gallileugenesis/text-summarization-application-with-gpt/blob/main/images/header_image.png?raw=true")
 
