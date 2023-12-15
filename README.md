@@ -31,6 +31,6 @@ O projeto consiste em dois arquivos principais:
 Contribuições para melhorar a aplicação são bem-vindas. Para contribuir, por favor, abra uma issue ou um pull request no repositório do GitHub.
 
 ## Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [Licença MIT](https://github.com/seunomeusuario/seuprojeto/blob/main/LICENSE) para mais detalhes.
 
  
