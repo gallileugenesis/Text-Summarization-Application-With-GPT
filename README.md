@@ -10,7 +10,7 @@ O projeto consiste em dois arquivos principais:
 
 ## Funcionalidades
 
-![jpeg]("https://github.com/gallileugenesis/text-summarization-application-with-gpt/blob/main/images/interface.jpeg?raw=true")
+![jpeg]("https://raw.githubusercontent.com/gallileugenesis/text-summarization-application-with-gpt/main/images/interface.jpeg")
 
 - Seleção de diferentes modelos de linguagem (GPT-3.5, GPT-4).
 - Escolha de estilos de sumarização personalizados com base no tipo de pessoa (Cientista, Estudante, etc.).
