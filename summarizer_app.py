@@ -5,22 +5,18 @@ from utils import text_extractor
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
+# Carregar e exibir a imagem
+image_path = 'images/header_image.png'  # Caminho para a imagem
+st.image(image_path, use_column_width=True)
+
 # Set the application title
-st.title("Resumidor de texto")
+st.title("Sumarizador de texto")
 
 resume = """
-Bem-vindo ao nosso Resumidor de Texto alimentado por modelos ChatGPT!
+Bem-vindo ao nosso Sumarizador de Texto alimentado por modelos ChatGPT!
 Esta ferramenta foi desenvolvida para simplificar e agilizar o processo de resumir textos extensos. 
-Utilizando avançados modelos de linguagem ChatGPT, nosso resumidor oferece resumos precisos e personalizados 
-de acordo com suas preferências.
 """
 st.markdown(f"<p style='text-align: justify;'>{resume}</p>", unsafe_allow_html=True)
-
-# Provide the input area for text to be summarized
-input_text = st.text_area("Digite o texto que deseja resumir:", height=200)
-
-# file upload area
-uploaded_file = st.file_uploader("Ou, escolha um arquivo", type=["txt", "pdf", "docx"])
 
 col1, col2 = st.columns(2)
 
@@ -39,15 +35,18 @@ with col1:
 with col2:
     person_type = st.selectbox(
         "Quem você gostaria que fizesse o resumo?",
-        (
+        (   
+            "Cientista",
             "Estudante universitário",
             "Aluno de ensino médio",
-            "Cientista de Dados",
             "Dona de casa",
             "Aposentado",
-            
+            'Outro',
         ),
     )
+
+    if person_type == 'Outro':
+        person_type = st.text_input("Digite o tipo de pessoa:", "")
 
 st.markdown("<h1 style='font-size: 20px;'>Ajuste os hiperparâmetros</h1>", unsafe_allow_html=True)
 col1, col2 = st.columns(2)
@@ -60,9 +59,14 @@ with col2:
 
 col1, col2 = st.columns(2)
 
+# Provide the input area for text to be summarized
+input_text = st.text_area("Digite o texto que deseja resumir:", height=200)
+
+# file upload area
+uploaded_file = st.file_uploader("Ou, escolha um arquivo:", type=["txt", "pdf", "docx"])
 
 # Creating button for execute the text summarization
-if st.button("Resumir"):
+if st.button("Sumarizar"):
     if uploaded_file is not None:
         input_text = text_extractor(uploaded_file)
 

@@ -1,3 +1,89 @@
+/* Estilo base para a página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Personalização do título */
+h1 {
+    color: #0d6efd; /* Cor azul */
+    text-align: center;
+}
+
+/* Estilização dos parágrafos, especialmente o resumo */
+p {
+    font-size: 1.1em;
+    text-align: justify;
+    margin: 10px 0;
+}
+
+/* Estilização das colunas e seletores */
+.column {
+    margin: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+/* Personalização dos sliders */
+.slider {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Personalização do botão de resumo */
+button {
+    background-color: rgb(240, 242, 246);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #0d6efd; /* Verde mais escuro */
+}
+
+/* Estilização da área de upload de arquivo */
+.file-uploader {
+    border: 1px dashed #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+.file-uploader:hover {
+    border-color: #0d6efd; /* Cor azul ao passar o mouse */
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .column {
+        flex-basis: 100%;
+    }
+}
+
 #MainMenu{
+    visibility: hidden;
+}
+
+footer{
+    visibility: hidden;
+}
+
+.stDeployButton{
     visibility: hidden;
 }
