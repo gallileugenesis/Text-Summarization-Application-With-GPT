@@ -12,7 +12,7 @@ O projeto consiste em dois arquivos principais:
 
 ![png]("https://github.com/gallileugenesis/text-summarization-application-with-gpt/blob/main/images/interface.jpeg?raw=true")
 
-![png]("https://github.com/gallileugenesis/text-summarization-application-with-gpt/blob/main/images/interface1.jpeg?raw=true")
+![png]("https://github.com/gallileugenesis/text-summarization-application-with-gpt/blob/main/images/header_image.png?raw=true")
 
 ![png](https://github.com/gallileugenesis/gallileugenesis.github.io/blob/main/post-img/2023-10-24-PDF-to-text/cover-image.jpeg?raw=true)
 
