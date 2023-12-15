@@ -9,7 +9,7 @@ O projeto consiste em dois arquivos principais:
 - summarizer_app.py: Script para executar a aplicação Streamlit, fornecendo uma interface de usuário para a entrada de texto e exibição dos resumos.
 
 ## Funcionalidades
-![Texto Alternativo]("images/interface1.jpeg")
+![Texto Alternativo]("https://github.com/gallileugenesis/text-summarization-application-with-gpt/blob/main/images/interface1.jpeg?raw=true")
 
 - Seleção de diferentes modelos de linguagem (GPT-3.5, GPT-4).
 - Escolha de estilos de sumarização personalizados com base no tipo de pessoa (Cientista, Estudante, etc.).
