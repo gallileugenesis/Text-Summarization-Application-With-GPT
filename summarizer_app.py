@@ -51,11 +51,11 @@ with col2:
 st.markdown("<h1 style='font-size: 20px;'>Ajuste os hiperparâmetros</h1>", unsafe_allow_html=True)
 col1, col2 = st.columns(2)
 with col1:
-    token = st.slider("Token", min_value=0.0, max_value=200.0, value=50.0, step=1.0)
-    temp = st.slider("Temperature", min_value=0.0, max_value=1.0, value=0.0, step=0.01)
-with col2:
+    token = st.slider("Max Tokes", min_value=0.0, max_value=200.0, value=50.0, step=1.0)
     top_p = st.slider("Nucleus Sampling", min_value=0.0, max_value=1.0, value=0.5, step=0.01)
+with col2:
     f_pen = st.slider("Frequency Penalty", min_value=-1.0, max_value=1.0, value=0.0, step=0.01)
+    temp = st.slider("Temperature", min_value=0.0, max_value=1.0, value=0.0, step=0.01)
 
 col1, col2 = st.columns(2)
 

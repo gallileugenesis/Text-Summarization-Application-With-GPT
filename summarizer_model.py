@@ -8,9 +8,9 @@ client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 def generate_summarizer(
     model,
     max_tokens,
-    temperature,
     top_p,
     frequency_penalty,
+    temperature,
     prompt,
     person_type,
 ):
